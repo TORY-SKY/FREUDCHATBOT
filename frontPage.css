@@ -1,0 +1,297 @@
+
+body{
+   
+}
+.backgroundIMG{
+    position: absolute;
+    left: -3;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/3D\ Asset\ 1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+    z-index: -1;
+}
+
+.HeroNav{
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    top: 16px;
+    border-radius: 1234px;
+    background-color: rgba(247, 244, 242, 1);
+
+}
+.callMAILLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.callMAILLogo span{
+    background: rgba(255, 255, 255, 1);
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 1000px;
+    gap: 10px;
+
+
+}
+/*LANDING PAGE*/
+.IphonePhoneView{
+   margin-top: 30px;
+}
+
+.LandingPageText, .LandingPageBTNS {
+    margin-left: 40px;
+}
+.LandingPageText h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.AIChatBotText{
+    color: rgba(254, 129, 75, 1);
+}
+.LandingPageBTNS button{
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 1000px;
+    gap: 32px;
+}
+.DownloadBTN{
+   
+    background-color: rgba(155, 176, 104, 1) !important;
+}
+.btnArrow{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 8px;
+    border-radius: 1234px;
+    
+    
+}
+
+.IphoneSpace{
+    position: absolute;
+    left: 175;
+    bottom: -90;
+    transform: scale(0.9);
+    
+    z-index: -1;
+    
+}
+
+/*Carousel display*/
+.wrapper{
+   
+    border-radius: 900px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+.carousel img{
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 200px auto;
+}
+.Partners{
+    padding: 0px, 16px, 0px, 16px;
+    width: auto;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    background-color: #222;
+}
+
+.PURPOSE, .PURPOSED {
+    padding: 10px;
+    border-radius: 1234px;
+    background-color: rgba(232, 221, 217, 1);
+}
+.AIWELLNESSdiv{
+    background-color: rgba(247, 244, 242, 1);
+    border-radius: 32px;
+}
+.AIWELLNESS{
+    max-width: 919px;
+}
+.AIWELLNESS h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+color: rgba(75, 52, 37, 1);
+
+}
+.AIWELLNESS span{
+    color: rgba(146, 98, 71, 1);
+}
+
+.Card1{
+    border-radius: 48px;
+    padding: 35px;
+    
+}
+.Card1 h1{
+    font-weight: 900;
+    font-size: 70px;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+color: rgba(75, 52, 37, 1);
+}
+#plus{
+    color: rgba(254, 129, 75, 1);
+    padding: 0;
+    margin: 0;
+}
+.HomePageStatistic{
+    background-color: rgba(229, 234, 215, 1);
+    border-radius: 32px;
+}
+.SeeAllStatistic a{
+    color: rgba(75, 52, 37, 1);
+
+}
+.Card1:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+/*@MEDIA QUERY RESPONSIVENESS*/
+@media (max-width: 767px){
+    .callMAILLogo span svg:hover{
+        background-color: rgba(75, 52, 37, 1);
+    }
+    .callMAILLogo{
+        display: none;
+    }
+    .LabelImage{
+        display: none !important;
+    }
+    .LabelImageReplace{
+        display: block !important;
+        padding: 10px;
+    border-radius: 1234px;
+    background-color: rgba(232, 221, 217, 1);
+    width: 80vw;
+    text-align: center;
+    }
+
+/*LANDING PAGE*/
+.LandingPageText{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.LandingPageText h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+    
+}
+.LandingPageText p{
+    font-size: 0.7rem;
+}
+.LandingPageText img{
+    transform: scale(0.5);
+    text-align: center;
+}
+.LandingPageBTNS{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.LandingPageText img{
+    display: flex;
+   position: relative;
+   right:63;
+}
+.LandingPageText .textaMarker{
+    z-index: 222;
+    bottom: 23;
+}
+.DownloadBTN{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 0.7rem;
+    
+    
+}
+.DownloadBTN:hover span{
+    transform: scale(1.3);
+    object-fit: contain;
+    overflow: hidden;
+    transition: 0.7s;
+}
+.wrapper{
+    border-radius: 60px;
+
+}
+
+.carousel img{
+    width: 100%;
+}
+
+
+
+
+
+    .IphoneSpace{
+        display: none;
+    }
+    .WhereWeGetNumbers{
+        display: block !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .HomePageStatistic{
+        margin-bottom: 30px;
+       
+    }
+    #LivesImpacted{
+        font-size: 60px;
+    }
+    .features{
+        background-image: url('./images/BG.png');
+        background-color: rgba(229, 234, 215, 1);
+    }
+   
+    .backgroundIMG{
+        position: absolute;
+        align-items: center;
+        display: flex;
+        top: 400;
+        right: 50;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('./images/3D\ Asset\ 1.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:contain;
+        z-index: -1;
+    }
+    .IphonePhoneView{
+       position: relative;
+    }
+    .IphonePhoneView img{
+        position: relative;
+        left: 2;
+        top: 20;
+        margin: auto 0;
+        max-width: 100%;
+        height: auto;
+        transform: scale(1.7);
+    }
+    /*buttons here*/
+   
+}
